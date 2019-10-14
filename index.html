@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>mCash</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+
 <body>
     <h1>Register here:</h1>
-    <form action="./index.php" method="POST">
-        <input type="email" name="email" id="" placeholder="Email" required><br><br>
-        <input type="text" name="name" id="" placeholder="Full name" minlength="4" required><br><br>
-        <input type="text" name="username" id="" minlength="4" placeholder="Username" required><br><br>
-        <input type="password" name="pin" id="" minlength="4" placeholder="Pin" required><br><br>
-        <input type="password" name="loginPassword" id="" minlength="4" placeholder="Login Password" required><br><br>
-        <input type="submit" value="Register">
-    </form>
+    <div class="col-md-9 mb-md-0 mb-5">
+        <form action="./index.php" method="POST">
+            <i class="fas fa-envelope mt-4 fa-2x"></i><input type="email" name="email" id="" placeholder="Email" required><br><br>
+            <input type="text" name="name" id="" placeholder="Full name" minlength="4" required><br><br>
+            <input type="text" name="username" id="" minlength="4" placeholder="Username" required><br><br>
+            <input type="password" name="pin" id="" minlength="4" placeholder="Pin" required><br><br>
+            <input type="password" name="loginPassword" id="" minlength="4" placeholder="Login Password" required><br><br>
+            <input type="submit" class="btn btn-primary" value="Register">
+        </form>
+    </div>
+
 </body>
+
 </html>
